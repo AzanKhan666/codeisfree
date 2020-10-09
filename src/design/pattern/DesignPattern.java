@@ -16,6 +16,15 @@ public class DesignPattern {
      */
     public static void main(String[] args) {
         System.out.println("hello");
-System.out.println("hello23");    }
+System.out.println("hello23");    
     
+    NewClass ob = new NewClass();
+    
+    int c= ob.add(3, 5);
+   
+     System.out.println(c); 
 }
+}
+
+    
+
